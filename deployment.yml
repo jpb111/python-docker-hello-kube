@@ -28,9 +28,9 @@ spec:
     spec:
       containers:
       - name: hello
-        image:  core.harbor.domain/python/hello
+        image:  
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
       imagePullSecrets:
-        - name: docker-registry-creds
+        - name: 
